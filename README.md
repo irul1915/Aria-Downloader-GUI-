@@ -1,6 +1,4 @@
-# Let's write the complete and formatted README.md content to a file that the user can download directly.
-
-readme_content = """# 🚀 Aria2 Multi-Thread Downloader Pro
+# 🚀 Aria2 Multi-Thread Downloader Pro
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -21,9 +19,6 @@ Sebelum menjalankan aplikasi ini, pastikan Anda sudah menyiapkan komponen beriku
 ## 📦 Instalasi & Penggunaan
 
 1. **Clone Repositori ini:**
-Code output
-File README.md ready.
-
-```bash
+   ```bash
    git clone [https://github.com/irul1915/Aria-Downloader-GUI-.git](https://github.com/irul1915/Aria-Downloader-GUI-.git)
    cd Aria-Downloader-GUI-
