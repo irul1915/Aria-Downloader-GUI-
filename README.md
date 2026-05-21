@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Windows-informational.svg)](https://www.microsoft.com/windows)
 
-Aplikasi downloader berbasis Python yang membungkus keandalan **Aria2** untuk melakukan pengunduhan file super cepat menggunakan metode multi-threading — dilengkapi konsol log real-time dan manajemen download yang efisien.
+Aplikasi downloader all-in-one berbasis Python yang membungkus keandalan **Aria2** — mendukung direct link, torrent, magnet link, hingga download video & audio YouTube dengan kecepatan maksimal berkat multi-threading.
 
 </div>
 
@@ -14,11 +14,48 @@ Aplikasi downloader berbasis Python yang membungkus keandalan **Aria2** untuk me
 
 ## ✨ Fitur Utama
 
+### 🔗 1. Direct Link Downloader
+- Download file dari URL langsung (HTTP/HTTPS/FTP)
+- Mendukung **multi-threading** — file dibagi menjadi beberapa segmen untuk memaksimalkan kecepatan bandwidth
+- Mendukung **resume download** jika koneksi terputus
+
+### 🌊 2. Torrent Downloader
+- Download via **file `.torrent`** — cukup browse dan pilih file torrent Anda
+- Download via **Magnet Link** — tempel magnet link langsung di aplikasi
+- Memanfaatkan engine Aria2 untuk manajemen peer yang efisien
+
+### 🎬 3. YouTube Downloader
+Download video maupun audio dari YouTube dengan mudah:
+
+| Mode | Deskripsi |
+|---|---|
+| 🎥 **Video Download** | Download video dalam berbagai resolusi |
+| 🎵 **Audio Only** | Ekstrak dan konversi audio ke berbagai format |
+
+**Format audio yang didukung:**
+
+| Format | Keterangan |
+|---|---|
+| `FLAC` | Lossless, kualitas tertinggi |
+| `OPUS` | Lossy modern, ukuran kecil & kualitas baik |
+| `MP3` | Format paling universal |
+| `AAC` | Kompatibel luas, cocok untuk perangkat Apple |
+| `WAV` | Uncompressed, cocok untuk editing audio |
+| `M4A` | Format native YouTube, kualitas tinggi |
+
+> Konversi audio menggunakan **FFmpeg** secara otomatis di background.
+
+---
+
+## ⚙️ Keunggulan Teknis
+
 | Fitur | Deskripsi |
 |---|---|
 | ⚡ **Multi-threaded Downloading** | Membagi file menjadi beberapa bagian untuk memaksimalkan bandwidth |
+| 🔄 **Resume Support** | Melanjutkan download yang terputus secara otomatis |
 | 🐍 **Venv Integrated** | Berjalan di dalam virtual environment yang terisolasi |
-| 📋 **Log Console** | Memantau proses download secara real-time |
+| 📋 **Log Console Real-time** | Memantau progress dan log download secara langsung |
+| 🎞️ **FFmpeg Integration** | Konversi audio/video langsung dari dalam aplikasi |
 
 ---
 
