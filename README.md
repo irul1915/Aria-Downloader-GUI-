@@ -22,3 +22,34 @@ Sebelum menjalankan aplikasi ini, pastikan Anda sudah menyiapkan komponen beriku
    ```bash
    git clone [https://github.com/irul1915/Aria-Downloader-GUI-.git](https://github.com/irul1915/Aria-Downloader-GUI-.git)
    cd Aria-Downloader-GUI-
+   
+2. Konfigurasi Folder & File Eksternal (PENTING):
+Aplikasi ini membutuhkan binary eksternal yang tidak ikut diunggah karena ukuran filenya yang besar. Silakan atur struktur folder Anda menjadi seperti ini:
+Buat folder bernama aria2 di dalam folder utama project, lalu masukkan file aria2c.exe ke dalamnya.
+Unduh FFmpeg, lalu ekstrak file ffmpeg.exe dan ffprobe.exe langsung di folder utama project (satu tingkat/setara dengan file main.py).
+Struktur direktori Anda harus terlihat seperti ini:
+
+Aria-Downloader-GUI-/
+├── aria2/
+│   └── aria2c.exe
+├── core/
+├── ui/
+├── ffmpeg.exe
+├── ffprobe.exe
+├── main.py
+└── Run.bat
+
+3. Buat dan Aktifkan Virtual Environment:
+   ```bash
+   python -m venv venv
+# Windows
+venv\Scripts\activate
+
+4. Instal Dependensi:
+   ```bash
+   pip install -r requirements.txt
+
+5. Jalankan Aplikasi:
+Klik ganda pada file Run.bat atau jalankan via terminal:
+   ```bash
+   python main.py
