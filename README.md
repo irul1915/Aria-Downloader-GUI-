@@ -11,13 +11,14 @@ Aria2 Multi-Thread Downloader Pro adalah aplikasi berbasis Python yang membungku
 - **Log Console:** Memantau proses download secara real-time.
 
 ## 🛠️ Prasyarat
-Sebelum menjalankan aplikasi ini, pastikan Anda sudah menginstal:
-- [Python 3.10+](https://www.python.org/downloads/)
-- [Aria2c](https://aria2.github.io/) (pastikan path aria2c sudah terdaftar di sistem)
+Sebelum menjalankan aplikasi ini, pastikan Anda sudah menyiapkan komponen berikut:
+- **Python 3.10+** (Terinstal di sistem Anda)
+- **Aria2c Binary:** Unduh [Aria2](https://github.com/aria2/aria2/releases) resmi.
+- **FFmpeg & FFprobe:** Unduh biner [FFmpeg Essentials](https://www.gyan.dev/ffmpeg/builds/) untuk Windows.
 
 ## 📦 Instalasi & Penggunaan
 
 1. **Clone Repositori ini:**
    ```bash
-   git clone [https://github.com/username_anda/nama-repo.git](https://github.com/username_anda/nama-repo.git)
-   cd nama-repo
+   git clone [https://github.com/irul1915/Aria-Downloader-GUI-.git](https://github.com/irul1915/Aria-Downloader-GUI-.git)
+   cd Aria-Downloader-GUI-
