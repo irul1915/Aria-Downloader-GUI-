@@ -1,0 +1,72 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Virtual Environment ===
+venv/
+ENV/
+env/
+
+# === Database & Logs ===
+*.db
+*.sqlite3
+logs/
+*.log
+
+# === Download Outputs ===
+MediaOut/
+*.mp4
+*.mp3
+*.mkv
+*.m4a
+*.flac
+*.opus
+*.wav
+*.part
+*.aria2
+
+# === Aria2 Session ===
+*.session
+aria2.session
+
+# === Binary/Executable (Opsional - Jika ingin push, hapus baris ini) ===
+# ffmpeg.exe
+# ffprobe.exe
+# aria2/aria2c.exe
+
+# === Installer Archive ===
+*.zip
+*.7z
+*.rar
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Backup ===
+*.bak
